@@ -1,0 +1,69 @@
+.home__menu {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        width: 100%;
+        margin: 0 auto;
+
+
+
+        & > :nth-child(2) {
+            grid-row: span 1; /* Займає один рядок, але можна не вказувати, оскільки за замовчуванням */
+            height: 1fr; /* Для цього елемента буде використовуватись 1fr */
+        }
+
+
+    }
+
+
+    .menu-item {
+        background-color: #4caf50;
+
+        width: 333px;
+        width: 100%;
+        height: 304px;
+        color: black;
+        text-align: center;
+
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        /* Останній ряд буде мати висоту авто */
+        background-size: cover;
+
+        font-size: 30px;
+        text-align: left;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer !important;
+
+        position: relative;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        span {
+            // position: absolute;
+            // top: 80%;
+            // /* position the top  edge of the element at the middle of the parent */
+            // left: 50%;
+            // /* position the left edge of the element at the middle of the parent */
+
+            // transform: translate(-50%, -50%);
+            // width: 100%;
+            padding-bottom: 20px;
+
+
+        }
+    }
+    .menu-item:last-child {
+        grid-column: span 2;
+    }
+  
+}

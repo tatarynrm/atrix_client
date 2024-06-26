@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+.container {
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.atrix{
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100vh;
+    height: auto;
+    background-color: $primary-color;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__content{
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

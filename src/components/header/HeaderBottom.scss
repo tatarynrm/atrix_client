@@ -1,0 +1,9 @@
+.header__bottom {
+    padding-top: 20px;
+
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}

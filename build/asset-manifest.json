@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d098fe87.css",
+    "main.js": "/static/js/main.70627128.js",
+    "static/media/restorant.png": "/static/media/restorant.47f36f3612f12f06ab81.png",
+    "static/media/hotel.png": "/static/media/hotel.2cfa786e0fc8e7714881.png",
+    "static/media/entertaiment.png": "/static/media/entertaiment.f0f330068685988c2c8c.png",
+    "static/media/transfer.png": "/static/media/transfer.32648b0b45049c09c6fb.png",
+    "static/media/spa.png": "/static/media/spa.b9aa9c02b1a64546f8b5.png",
+    "static/media/diving.png": "/static/media/diving.06a8c8668044a278c2ae.png",
+    "static/media/boat.png": "/static/media/boat.cd8b6416cd4fdf78440a.png",
+    "static/media/car.png": "/static/media/car.ac74c63066dd03a25786.png",
+    "static/media/excursions.png": "/static/media/excursions.35cb3a3e735816d604c8.png",
+    "static/media/mobile.png": "/static/media/mobile.1f262ab1e545f0318729.png",
+    "static/media/atrix_logo.svg": "/static/media/atrix_logo.9f957ab1708bd5a82d047e53ba7dc94f.svg",
+    "static/media/chat.svg": "/static/media/chat.7521505db81d75a400ebea5534870b1d.svg",
+    "index.html": "/index.html",
+    "static/media/search_icon.svg": "/static/media/search_icon.02580dde3d5da7853f7c87379e36f543.svg",
+    "static/media/home.svg": "/static/media/home.a224b7e527064cfa7200bd0b2b284b8f.svg",
+    "static/media/arrow-back.svg": "/static/media/arrow-back.f8658d32b61b2c6f51765d584b7fd762.svg",
+    "static/media/arrow-next.svg": "/static/media/arrow-next.57e204d46e9623f587343b078e8d8862.svg",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.1c0951b724a32cf15c37d77730c9fb8e.svg",
+    "main.d098fe87.css.map": "/static/css/main.d098fe87.css.map",
+    "main.70627128.js.map": "/static/js/main.70627128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d098fe87.css",
+    "static/js/main.70627128.js"
+  ]
+}

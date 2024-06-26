@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+.footer {
+    // position: absolute;
+    bottom: 0;
+    // height: 12px;
+    width: 100%;
+    background-color: $secondary-color;
+    color: white;
+    padding: 15px;
+
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+.payment {
+    .icons {
+        display: flex;
+        gap: 7px;
+    }
+}
+
+    .chat__us {
+        .chat__with-us {
+            background-color:#86B4FE;
+            display: flex;
+            gap: 5px;
+            background-color: none;
+            border: none;
+            outline: none;
+            // background-color: red;
+            border: 1px solid white;
+            border-radius: 50px;
+            padding: 8px 15px;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+    }
+
+}

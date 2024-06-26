@@ -1,0 +1,30 @@
+.input__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    img {
+        position: absolute;
+        left: 10px;
+
+    }
+
+    input {
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        width: 480px;
+        height: 55px;
+        background-color: transparent;
+        border: 1px solid white;
+        padding:10px 10px 10px 40px ;
+
+        &::placeholder {
+            color: white;
+            font-size: 18px;
+            line-height: 21.8px;
+            font-weight: 500;
+            font-family: 'Inter',sans-serif;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.header__top {
+    background-color: $secondary-color;
+    color: $color-white;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        height: 55px;
+
+        // gap:28px;
+
+        span {
+            font-weight: 600;
+            font-size: 14px;
+        }
+       
+    }
+}
